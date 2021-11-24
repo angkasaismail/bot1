@@ -5,7 +5,7 @@ let handler = async (m, { conn }) => {
     await m.reply('Resetting the Bot...\nPlease wait about 1 minute')
     await global.db.write()
     process.send('reset')
-  } else throw '_Eva..._'
+  } else throw '_Ismail..._'
 }
 handler.help = ['debounce' + (process.send ? '' : ' (Does not work)')]
 handler.tags = ['host']
