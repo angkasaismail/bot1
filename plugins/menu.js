@@ -18,10 +18,6 @@ const defaultMenu = {
 
 🗿FansPage:https://facebook.com/IsmailOfficial.github.io/
 
-🗿Web Github:https://IsmailOfficial.github.io/
-
-🗿Github:https://github.com/IsmailOfficial/
-
 🗿Instagram:https://www.instagram.com/Ismail_Kurama/
 
      〘 *YT: Ismail Kurama* 〙
@@ -31,6 +27,9 @@ const defaultMenu = {
   footer: ' \n',
   after: `
 *JANGAN LUPA BAHAGIA*
+
+ 
+  
 ${'```Created By ❤️ Ismail```'}
 `,
 }
@@ -178,7 +177,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": ` Subscribe Channel YouTube
+          "title": ` *Subscribe Channel YouTube*
           https://youtube.com/IsmailKurama
  `
  
