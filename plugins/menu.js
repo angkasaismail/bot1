@@ -9,26 +9,25 @@ const defaultMenu = {
 ┍━ *_「 %me 」_*
 \`\`\`│ ᴏɪ, %name!\`\`\`
 │
-│%emos *ʟɪᴍɪᴛ* : %limit Limit
-│%emos *ʟᴇᴠᴇʟ* : \`\`\`%level (%exp / %maxexp))\`\`\`
+│ *ʟɪᴍɪᴛ* : %limit Limit
+│ *ʟᴇᴠᴇʟ* : \`\`\`%level (%exp / %maxexp))\`\`\`
 \`\`\`│ %totalexp xᴘ ɪɴ ᴛᴏᴛᴀʟ\`\`\`
 │ 
-│%emos *ᴅᴀᴛᴇ* : \`\`\`%week, %date\`\`\`
-│%emos *ᴅᴀᴛᴇ ᴀʀᴀʙɪᴄ* : \`\`\`%dateIslamic\`\`\`
-│%emos *ᴛɪᴍᴇ* : \`\`\`%time\`\`\`
+│ *ᴅᴀᴛᴇ* : \`\`\`%week, %date\`\`\`
+│ *ᴅᴀᴛᴇ ᴀʀᴀʙɪᴄ* : \`\`\`%dateIslamic\`\`\`
+│ *ᴛɪᴍᴇ* : \`\`\`%time\`\`\`
 │
-│%emos *ᴜᴘᴛɪᴍᴇ* : \`\`\`%uptime (%muptime)\`\`\`
-│%emos *ᴅᴀᴛᴀʙᴀsᴇ* : \`\`\`%rtotalreg of %totalreg\`\`\`
+│ *ᴜᴘᴛɪᴍᴇ* : \`\`\`%uptime (%muptime)\`\`\`
+│ *ᴅᴀᴛᴀʙᴀsᴇ* : \`\`\`%rtotalreg of %totalreg\`\`\`
 │
 ┕━━━━━
 %readmore`.trimStart(),
   header: '┍━ *_「 %category 」_*',
-  body: '```│ ❐ %cmd %islimit %isPremium```',
+  body: '```│ %cmd %islimit %isPremium```',
   footer: '┕━━━━━\n',
   after: `
 *JANGAN LUPA BAHAGIA*
 
- 
   
 ${'```Created By ❤️ Ismail```'}
 `,
@@ -54,7 +53,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'nulis': 'L O G O  &   N U L I S',
     'downloader': 'D O W N L O A D E R',
     'tools': 'T O O L S',
-    'Video Maker':' V I D E O M A K E R',
+    'Video Maker':'YT: Ismail Kurama',
     'fun': 'F U N',
     'database': 'D A T A B A S E',
     'vote': 'V O T I N G',
@@ -189,87 +188,87 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             {
               "rows": [
                 {
-                  "title": `📜 All Commands`,
-                  "description": "Show all features",
+                  "title": `📜 All Feature`,
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": ".? all"
                 }, {
                   "title": "🎮 Game",
-                  "description": "Game features",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": ".? game"
 
                 }, {
                   "title": "💸 XP",
-                  "description": "Features level & usage limit",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": ".? xp"
 
                 },  {
                   "title": "🎥 Video Maker",
-                  "description": "Making Different Types Of Videos",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": ".? .videomaker"
 
                 },{
                   "title": "🖼️ Sticker",
-                  "description": "Features for making stickers",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": ".? stiker"
                 }, { 
                 "title": "💢 Anime",
-                "description": "Anime Related Plugin",
+                "description": "https://youtube.com/c/IsmailKurama",
                 "rowId": ".? anime"
               },  {
                   "title": "✍️ Quotes",
-                  "description": "Gives You Random Quotes..",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": ".? quotes"
                 }, {
                   "title": "👨🏻‍💻 Admin",
-                  "description": "Group Admin Commands",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": ".? admin"
                 }, {
-                  "title": "🫂 Group",
-                  "description": "Group Related Commands",
+                  "title": "👥 Group",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": ".? grup"
                 }, {
                   "title": "✨ Premium",
-                  "description": "Premium Users Plugins",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": ".? premium"
                 }, {
                   "title": "🌐 Internet",
-                  "description": "Commands Related To Internet",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": ".? internet"
                 }, {
                   "title": "👤 Anonymous",
-                  "description": "To Start Anonymous Chatting",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": ".? anonymous"
                 }, {
-                  "title": "🔅 Magic Shell",
-                  "description": "Random answer feature",
+                  "title": "❤️YT: Ismail Kurama",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": `.? magicshell`
                 }, {
                   "title": "☯️ Nulis & Logo",
-                  "description": "Text Maker Coammnds",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": ".? nulis"
                 }, {
                   "title": "⏬ Downloader",
-                  "description": "Downloading Commnds",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": ".? downloader"
                 }, {
                   "title": "⚙️ Tools",
-                  "description": "Tool features",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": ".? tools"
                 }, {
                   "title": "🗣️ Voice Changer",
-                  "description": "To change the voice",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": `.? audio`
                 }, {
                   "title": "😜 Fun",
-                  "description": "Just for fun",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": ".? fun"
                 }, {
                   "title": "📁 Database",
-                  "description": "User database",
+                  "description": "https://youtube.com/c/IsmailKurama",
                   "rowId": ".? database"
                 },{
                   "title": "☮️ Owner",
-                  "description": "Owner's special features",
+                  "description": "JANGAN LUPA SUBSCRIBE",
                   "rowId": ".? owner"
                 }
               ]
