@@ -6,7 +6,7 @@ WaAlaikumSalam
 `.trim(), m)
     let mentionedJid = [m.sender]
 }
-handler.customPrefix = /(mikum|asalamualaikum|Asalam/i
+handler.customPrefix = /^(mikum|P|slm|assalamualaikum|asalamualaikum)$/i
 handler.command = new RegExp
 
 module.exports = handler
