@@ -29,6 +29,7 @@ global.APIKeys = { // APIKey nya disini
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.xyz': 'apivinz',
   'https://freeapi-ismail832.herokuapp.com': 'ISISENDIRI',
+  'https://xnxn-xxx.herokuapp.com': 'xnxx',
 }
 
 // Sticker WM
